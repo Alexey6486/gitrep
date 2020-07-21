@@ -1,1 +1,16 @@
 .appWrap{}
+.appContent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.repsList{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.repInfo{
+    display: flex;
+    width: 68%;
+}

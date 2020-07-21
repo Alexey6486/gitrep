@@ -1,0 +1,29 @@
+.repInfoWrap{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+}
+.repInfoOwner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.repInfoOwner img{
+    display: block;
+    width: 150px;
+}
+.repInfoContent{
+    padding-left: 10px;
+}
+.repInfoContent__Title{
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 100px;
+}
+.repInfoContent__row{
+    display: flex;
+}
+.repInfoContent__Data{
+    font-size: 16px;
+    font-weight: normal;
+}

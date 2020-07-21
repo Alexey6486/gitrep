@@ -5,10 +5,15 @@ const instance = axios.create({
 
 });
 
-export const RepsApi = {
-  getReps(currentPage: number) {
-      return instance
-          .get(`search/repositories?q=all&page=${currentPage}&per_page=10&sort=stars&order=desc`)
-          .then(res => res.data);
-  }
+export const repsApi = {
+    getReps(currentPage: number) {
+        return instance
+            .get(`search/repositories?q=all&page=${currentPage}&per_page=5&sort=stars&order=desc`)
+            .then(res => res.data);
+    },
+    setTotalRepsApi() {
+        return instance
+            .get(`search/repositories?q=all&sort=stars&order=desc`)
+            .then(res => res.data.total_count);
+    },
 };

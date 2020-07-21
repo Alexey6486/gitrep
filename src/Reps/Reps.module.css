@@ -1,12 +1,39 @@
 .repsWrap{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 .repWrap{
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+    width: 100%;
+    background-color: #fafafa;
+    padding: 10px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }
 .repWrap__item{
-
+    color: #333333;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.repWrap__item span{
+    color: #0c0ab4;
+    font-weight: normal;
+    text-transform: initial;
+}
+.repWrap a{
+    color: #FF8D00;
+    font-weight: normal;
+    text-transform: initial;
+}
+.repWrap a:hover{
+    text-decoration: none;
+}
+.paginationWrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
