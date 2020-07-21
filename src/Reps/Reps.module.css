@@ -1,0 +1,12 @@
+.repsWrap{
+    display: flex;
+    flex-direction: column;
+}
+.repWrap{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.repWrap__item{
+
+}
